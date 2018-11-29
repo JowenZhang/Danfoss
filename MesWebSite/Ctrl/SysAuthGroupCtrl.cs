@@ -178,7 +178,7 @@ namespace Ctrl
             model.status_no = string.IsNullOrEmpty(view.status_no) ? "310" : view.status_no;
             model.auth_group_name = view.auth_group_name;
             GlobalDataCtrl globalDataCtrl = new GlobalDataCtrl();
-            model.auth_group_no = string.IsNullOrEmpty(view.auth_group_no) ? globalDataCtrl.GetNextNoByTblName("sys_auth_group") : view.status_no;
+            model.auth_group_no = string.IsNullOrEmpty(view.auth_group_no) ? globalDataCtrl.GetNextNoByTblName("sys_auth_group") : view.auth_group_no;
             return model;
         }
 
