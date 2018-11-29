@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <connectionStr>
+  <add key="dfsDb" value="Data Source=192.168.0.201\DFSSERVER; Initial Catalog=dfsDb; User Id=sa; Password=sa@123" />
+  </connectionStr>
+  <sessionSet>
+    <add key="timeOut" value="30"></add>
+  </sessionSet>
+  <ftpSet>
+    <add key="ftpHost" value="192.168.0.201"></add>
+    <add key="readUserNo" value="ftp1"></add>
+    <add key="readUserPwd" value="ftp1"></add>
+    <add key="writeUserNo" value="ftp2"></add>
+    <add key="writeUserPwd" value="ftp2"></add>
+    <add key="mainFtpPath" value="current"></add>
+    <add key="backupFtpPath" value="history"></add>
+    </ftpSet>
+</appSettings>

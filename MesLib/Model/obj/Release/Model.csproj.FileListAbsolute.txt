@@ -1,0 +1,5 @@
+D:\GitRepository\MesServer\Model\bin\Release\Model.dll
+D:\GitRepository\MesServer\Model\bin\Release\Model.pdb
+D:\GitRepository\MesServer\Model\obj\Release\Model.dll
+D:\GitRepository\MesServer\Model\obj\Release\Model.pdb
+D:\GitRepository\MesServer\Model\obj\Release\Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,40 @@
+﻿body, html {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    border:none;
+}
+.title_top{
+    color:#A0E734;
+    font-family:'Microsoft YaHei';
+    font-weight:bolder;
+    font-size:60px;
+}
+.title_base {
+    color:#A0E734;
+    font-family:'Microsoft YaHei';
+    font-size:48px;
+}
+.title_data {
+    color:deepskyblue;
+    font-family:'Microsoft YaHei';
+    font-size:48px;
+}
+.kp_data {
+    color:deepskyblue;
+    font-family:'Microsoft YaHei';
+    font-size:48px;
+}
+.kp_base{
+    color:#A0E734;
+    font-family:'Microsoft YaHei';
+    font-size:48px;
+}
+.andon {
+    display:block;
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+    background-color: green;
+    margin-left:10px;
+}

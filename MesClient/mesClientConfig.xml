@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+  <connectionStr>
+    <!--<ADD KEY="DEFAULTsQLdB" VALUE="dATA sOURCE=LOCALHOST\sqlexpress2012; iNITIAL cATALOG=DFSdB; uSER iD=SA; pASSWORD=SA" />
+    	<add key="remotePlanSqlDb" value="Data Source=localhost\SQLEXPRESS2012; Initial Catalog=dfsDbOrder; User Id=sa; Password=sa" />
+	<add key="defaultAccessDb" value="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\DfsDevelop\MesClient\Output\localDb\localDfsDb.mdb;"></add>
+	<add key="dataAccessDb" value="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\DfsDevelop\MesClient\Output\localDb\op020\data.mdb;"></add>
+	<add key="pmsAccessDb" value="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\DfsDevelop\MesClient\Output\localDb\op020\Parameter.mdb;"></add>-->
+
+	<add key="defaultSqlDb" value="data source=192.168.1.201\DFSSERVER; Initial Catalog=dfsDb; User Id=sa; Password=sa@123;" />
+    	<add key="remotePlanSqlDb" value="Data Source=localhost\SQLEXPRESS2012; Initial Catalog=dfsDbOrder; User Id=sa; Password=sa" />
+	<add key="defaultAccessDb" value="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Output\localDb\localDfsDb.mdb;"></add>
+	<add key="dataAccessDb" value="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Output\localDb\op020\data.mdb;"></add>
+	<add key="pmsAccessDb" value="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Output\localDb\op020\Parameter.mdb;"></add>
+  </connectionStr>
+  <wkcSetting>
+    <add key="localWkc" value="PAOP 020"></add>
+  </wkcSetting>
+  <generalSet>
+    <add key="isMusicPlayer" value="false"></add>
+    <add key="musicDirectory" value="D:\Output\adnCall"></add>
+    <add key="fileDirectory" value="D:\Output\peFiles"></add>
+  </generalSet>
+  <ftpSet>
+    <add key="host" value="192.168.1.201"></add>
+    <add key="readUser" value="ftp1"></add>
+    <add key="readPwd" value="ftp1"></add>
+    <add key="writeUser" value="ftp2"></add>
+    <add key="writePwd" value="ftp2"></add>
+  </ftpSet>
+  <logSet>
+    <add key="logPath" value="D:\Output\logs.txt"></add>
+  </logSet>
+</appSettings>

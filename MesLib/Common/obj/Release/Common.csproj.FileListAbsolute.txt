@@ -1,0 +1,15 @@
+D:\GitRepository\MesServer\Common\bin\Release\Common.dll
+D:\GitRepository\MesServer\Common\bin\Release\Common.pdb
+D:\GitRepository\MesServer\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\GitRepository\MesServer\Common\obj\Release\Common.dll
+D:\GitRepository\MesServer\Common\obj\Release\Common.pdb
+D:\GitRepository\MesServer\Common\bin\Release\NPOI.dll
+D:\GitRepository\MesServer\Common\bin\Release\NPOI.OOXML.dll
+D:\GitRepository\MesServer\Common\bin\Release\NPOI.OpenXml4Net.dll
+D:\GitRepository\MesServer\Common\bin\Release\NPOI.xml
+D:\GitRepository\MesServer\Common\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\GitRepository\MesServer\Common\bin\Release\NPOI.OpenXmlFormats.dll
+D:\GitRepository\MesServer\Common\bin\Release\COM.Excel.dll
+D:\GitRepository\MesServer\Common\bin\Release\Excel.dll
+D:\GitRepository\MesServer\Common\bin\Release\office.dll
+D:\GitRepository\MesServer\Common\bin\Release\Microsoft.Vbe.Interop.dll

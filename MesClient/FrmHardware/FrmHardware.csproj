@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6ED764A-40CA-4604-A081-C97B2B2C5DA3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrmHardware</RootNamespace>
+    <AssemblyName>FrmHardware</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmOp020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp020.Designer.cs">
+      <DependentUpon>frmOp020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp110.Designer.cs">
+      <DependentUpon>frmOp110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmOP025.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOP025.Designer.cs">
+      <DependentUpon>frmOP025.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp030.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp030.Designer.cs">
+      <DependentUpon>frmOp030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp040.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp040.Designer.cs">
+      <DependentUpon>frmOp040.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp050.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp050.Designer.cs">
+      <DependentUpon>frmOp050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp060.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp060.Designer.cs">
+      <DependentUpon>frmOp060.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp070.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp070.Designer.cs">
+      <DependentUpon>frmOp070.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp080.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp080.Designer.cs">
+      <DependentUpon>frmOp080.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOp090100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOp090100.Designer.cs">
+      <DependentUpon>frmOp090100.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmOp020.resx">
+      <DependentUpon>frmOp020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp110.resx">
+      <DependentUpon>frmOp110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmOP025.resx">
+      <DependentUpon>frmOP025.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp030.resx">
+      <DependentUpon>frmOp030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp040.resx">
+      <DependentUpon>frmOp040.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp050.resx">
+      <DependentUpon>frmOp050.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp060.resx">
+      <DependentUpon>frmOp060.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp070.resx">
+      <DependentUpon>frmOp070.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp080.resx">
+      <DependentUpon>frmOp080.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOp090100.resx">
+      <DependentUpon>frmOp090100.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxOP020">
+      <Guid>{41CF1F13-AB73-47B0-BA46-68CE63D33204}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP025">
+      <Guid>{CB87DB70-62E3-4BF5-A2E5-6D74BA351A5F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP030">
+      <Guid>{021778BE-3CBE-405A-841B-2138DF9FC472}</Guid>
+      <VersionMajor>14</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP040">
+      <Guid>{A3529A48-EB04-44BE-B132-2F71A9A9DAFC}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP050">
+      <Guid>{D3F6D6F7-1FC3-40E8-BBE7-E67A0CF572BD}</Guid>
+      <VersionMajor>16</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP060">
+      <Guid>{AF1DB78F-8430-469F-A48B-17667FBC8FC1}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP070">
+      <Guid>{478BBC6C-75CC-4B2A-BF3A-45C342670CC8}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP080">
+      <Guid>{4B5A5EB4-C696-48E9-B08F-379C23220BEA}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP090">
+      <Guid>{08F8C8F9-A932-4C1A-B5D7-7E5D64BBC5F2}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxOP110">
+      <Guid>{F4588827-4C82-4765-9801-14363DFA5D96}</Guid>
+      <VersionMajor>17</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="OP020">
+      <Guid>{41CF1F13-AB73-47B0-BA46-68CE63D33204}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP025">
+      <Guid>{CB87DB70-62E3-4BF5-A2E5-6D74BA351A5F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP030">
+      <Guid>{021778BE-3CBE-405A-841B-2138DF9FC472}</Guid>
+      <VersionMajor>14</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP040">
+      <Guid>{A3529A48-EB04-44BE-B132-2F71A9A9DAFC}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP050">
+      <Guid>{D3F6D6F7-1FC3-40E8-BBE7-E67A0CF572BD}</Guid>
+      <VersionMajor>16</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP060">
+      <Guid>{AF1DB78F-8430-469F-A48B-17667FBC8FC1}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP070">
+      <Guid>{478BBC6C-75CC-4B2A-BF3A-45C342670CC8}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP080">
+      <Guid>{4B5A5EB4-C696-48E9-B08F-379C23220BEA}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP090">
+      <Guid>{08F8C8F9-A932-4C1A-B5D7-7E5D64BBC5F2}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="OP110">
+      <Guid>{F4588827-4C82-4765-9801-14363DFA5D96}</Guid>
+      <VersionMajor>17</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FE14119-D279-4AA2-BF71-53065DF265D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisplayInformation.cs" />
+    <Compile Include="ProductBarcode.cs" />
+    <Compile Include="DisplayTbl.cs" />
+    <Compile Include="Msg.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableModel\DStbl_Maintain_Basic.cs" />
+    <Compile Include="TableModel\Mes_fb_info.cs" />
+    <Compile Include="TableModel\Mpo_plan.cs" />
+    <Compile Include="TableModel\Qcm_qa_result.cs" />
+    <Compile Include="TableModel\Sys_dbtype_exchange.cs" />
+    <Compile Include="TableModel\Stc_tbl.cs" />
+    <Compile Include="TableModel\Apo_act.cs" />
+    <Compile Include="TableModel\Adn.cs" />
+    <Compile Include="TableModel\Adn_type.cs" />
+    <Compile Include="TableModel\Apo.cs" />
+    <Compile Include="TableModel\Apo_item.cs" />
+    <Compile Include="TableModel\Bom.cs" />
+    <Compile Include="TableModel\Bom_C.cs" />
+    <Compile Include="TableModel\Bom_data.cs" />
+    <Compile Include="TableModel\Dms_file.cs" />
+    <Compile Include="TableModel\Dms_file_act.cs" />
+    <Compile Include="TableModel\Dms_file_type.cs" />
+    <Compile Include="TableModel\Eqm_jam_cause.cs" />
+    <Compile Include="TableModel\Eqm_jam_record.cs" />
+    <Compile Include="TableModel\Mes_fb.cs" />
+    <Compile Include="TableModel\Mes_fb_item.cs" />
+    <Compile Include="TableModel\Mes_worker.cs" />
+    <Compile Include="TableModel\Mpo.cs" />
+    <Compile Include="TableModel\Mpo_item.cs" />
+    <Compile Include="TableModel\Mpo_pe.cs" />
+    <Compile Include="TableModel\Mpo_pe_item.cs" />
+    <Compile Include="TableModel\DStbl_Part.cs" />
+    <Compile Include="TableModel\Pdm_eqm.cs" />
+    <Compile Include="TableModel\Pdm_eqm_maintain.cs" />
+    <Compile Include="TableModel\Pdm_line.cs" />
+    <Compile Include="TableModel\Pdm_part.cs" />
+    <Compile Include="TableModel\Pdm_part_type.cs" />
+    <Compile Include="TableModel\Pdm_pe.cs" />
+    <Compile Include="TableModel\Pdm_pe_item.cs" />
+    <Compile Include="TableModel\Pdm_shift.cs" />
+    <Compile Include="TableModel\Pdm_wkc.cs" />
+    <Compile Include="TableModel\Pdm_workshop.cs" />
+    <Compile Include="TableModel\Plm_pms.cs" />
+    <Compile Include="TableModel\Plm_pms_data.cs" />
+    <Compile Include="TableModel\Qcm_qa_cause.cs" />
+    <Compile Include="TableModel\Qcm_qa_record.cs" />
+    <Compile Include="TableModel\Qcm_quality.cs" />
+    <Compile Include="TableModel\Serial_port.cs" />
+    <Compile Include="TableModel\Stc_tbl_eqm.cs" />
+    <Compile Include="TableModel\Stc_bas.cs" />
+    <Compile Include="TableModel\Sys_auth.cs" />
+    <Compile Include="TableModel\Sys_auth_group.cs" />
+    <Compile Include="TableModel\Sys_company.cs" />
+    <Compile Include="TableModel\Sys_dept.cs" />
+    <Compile Include="TableModel\Sys_factory.cs" />
+    <Compile Include="TableModel\Sys_group.cs" />
+    <Compile Include="TableModel\Sys_menu.cs" />
+    <Compile Include="TableModel\Sys_product_record_setting.cs" />
+    <Compile Include="TableModel\Sys_setting.cs" />
+    <Compile Include="TableModel\Sys_spc_setting.cs" />
+    <Compile Include="TableModel\Sys_tbl_operate.cs" />
+    <Compile Include="TableModel\Sys_tbl_operate_record.cs" />
+    <Compile Include="TableModel\Sys_user.cs" />
+    <Compile Include="TableModel\Sys_user_auth_group.cs" />
+    <Compile Include="TableModel\Tbl_common.cs" />
+    <Compile Include="User_P.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

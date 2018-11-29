@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78573A3A-0AC5-41D8-941E-28F5BAB3F9AF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ctrl</RootNamespace>
+    <AssemblyName>Ctrl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MesLib\Output\Common.dll</HintPath>
+    </Reference>
+    <Reference Include="DAO, Version=10.0.4504.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\MesLib\Output\DAO.dll</HintPath>
+    </Reference>
+    <Reference Include="Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MesLib\Output\Model.dll</HintPath>
+    </Reference>
+    <Reference Include="ModelView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Output\ModelView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdnCtrl.cs" />
+    <Compile Include="ApoActCtrl.cs" />
+    <Compile Include="ApoCtrl.cs" />
+    <Compile Include="ApoItemCtrl.cs" />
+    <Compile Include="BasicSpcInfo.cs" />
+    <Compile Include="Bll\ApoActBll.cs" />
+    <Compile Include="Bll\BindDataBll.cs" />
+    <Compile Include="Bll\SpcDataAnalysisBll.cs" />
+    <Compile Include="Bll\DmsFileBll.cs" />
+    <Compile Include="Bll\FtpBll.cs" />
+    <Compile Include="Bll\ProductRecordBll.cs" />
+    <Compile Include="Bll\SysUserBll.cs" />
+    <Compile Include="CtrlFactroy.cs" />
+    <Compile Include="DataAnalysisBarCtrl.cs" />
+    <Compile Include="DmsFileCtrl.cs" />
+    <Compile Include="DstblMaintainBasicCtrl.cs" />
+    <Compile Include="EqmJamCauseCtrl.cs" />
+    <Compile Include="EqmJamRecordCtrl.cs" />
+    <Compile Include="EqmLockCtrl.cs" />
+    <Compile Include="GlobalDataCtrl.cs" />
+    <Compile Include="ICtrlOperate.cs" />
+    <Compile Include="IRAnalysisCtrl.cs" />
+    <Compile Include="KanpanCtrl.cs" />
+    <Compile Include="MesFbCtrl.cs" />
+    <Compile Include="MesFbInfoCtrl.cs" />
+    <Compile Include="MesFbItemCtrl.cs" />
+    <Compile Include="MesWorkerCtrl.cs" />
+    <Compile Include="MpoCtrl.cs" />
+    <Compile Include="MpoItemCtrl.cs" />
+    <Compile Include="MpoPlanCtrl.cs" />
+    <Compile Include="OrdinaryDataCtrl.cs" />
+    <Compile Include="PdmEqmCtrl.cs" />
+    <Compile Include="PdmLineCtrl.cs" />
+    <Compile Include="PdmShiftCtrl.cs" />
+    <Compile Include="PdmWkcCtrl.cs" />
+    <Compile Include="PdmWorkshopCtrl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QcmQaCauseCtrl.cs" />
+    <Compile Include="QcmQaRecordCtrl.cs" />
+    <Compile Include="QcmQaResultCtrl.cs" />
+    <Compile Include="QcmQualityCtrl.cs" />
+    <Compile Include="SubMenuCtrl.cs" />
+    <Compile Include="SysAuthCtrl.cs" />
+    <Compile Include="SysAuthGroupCtrl.cs" />
+    <Compile Include="SysCompanyCtrl.cs" />
+    <Compile Include="SysDeptCtrl.cs" />
+    <Compile Include="SysFactoryCtrl.cs" />
+    <Compile Include="SysGroupCtrl.cs" />
+    <Compile Include="SysProductRecordSettingCtrl.cs" />
+    <Compile Include="SysSettingCtrl.cs" />
+    <Compile Include="SysSpcSettingCtrl.cs" />
+    <Compile Include="SysUserAuthGroupCtrl.cs" />
+    <Compile Include="SysUserCtrl.cs" />
+    <Compile Include="TopMenuCtrl.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
