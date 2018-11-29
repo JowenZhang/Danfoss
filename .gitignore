@@ -2,3 +2,5 @@
 *.exe
 Debug
 Output
+*.pdb
+Release
